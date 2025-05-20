@@ -15,7 +15,9 @@ Fique a vontade para usar qualquer tecnologia que preferir, para nós será um d
 BackEnd:
 
 [Node](https://nodejs.org/en/)
+
 [NestJs](https://nestjs.com/)
+
 [Golang](https://go.dev/)
 
 FrontEnd:

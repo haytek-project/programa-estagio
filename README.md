@@ -1,7 +1,3 @@
-Aqui está uma versão aprimorada do README.md, mais profissional, detalhada e motivadora para os candidatos:
-
----
-
 # 🚀 Desafio Técnico Haytek - Estágio em Desenvolvimento
 
 Bem-vindo ao desafio técnico para a vaga de Estagiário(a) de Desenvolvimento na Haytek! Este desafio foi criado para avaliar suas habilidades técnicas e sua capacidade de resolver problemas reais que enfrentamos no nosso dia a dia.

@@ -1,4 +1,4 @@
-# 🚀 Desafio Técnico Haytek - Estágio em Desenvolvimento
+# 🚀 Desafio Técnico de Estágio de TI
 
 Bem-vindo ao desafio técnico para a vaga de Estagiário(a) de Desenvolvimento na Haytek! Este desafio foi criado para avaliar suas habilidades técnicas e sua capacidade de resolver problemas reais que enfrentamos no nosso dia a dia.
 
@@ -8,10 +8,38 @@ Somos uma empresa líder no mercado de lentes oftálmicas, fornecendo produtos d
 
 ## 🎯 Objetivo do Desafio
 
-Desenvolver um sistema de gestão de produtos para nosso e-commerce, implementando operações CRUD (Create, Read, Update, Delete) para diferentes tipos de produtos:
-- Lentes prontas
-- Lentes personalizadas
-- Produtos relacionados ao universo óptico
+Desenvolver um sistema de gestão de produtos para nosso e-commerce, implementando operações CRUD (Create, Read, Update, Delete). Segue abaixo o modelo de exemplo que precisará ser criado:
+
+
+| Field               | Type      | Example Value                                | Technical Notes                  |
+|---------------------|-----------|----------------------------------------------|----------------------------------|
+| `id`                | UUID v4   | `"a3d9f1b0-5c72-4e3d-8c55-2f1e8d4b6a7f"`     | **RFC 4122 compliant**           |
+| `model`             | String    | `"Nikon NIKKOR Z 24-70mm f/2.8 S"`          | Include full product name        |
+| `brand`             | String    | `"Nikon"`                                   | Use official brand casing        |
+| `type`              | String    | `"Zoom"`                                    | Prime/Zoom/Macro/Tilt-Shift      |
+| `focalLength`       | String    | `"24-70mm"`                                 | Single value for primes          |
+| `maxAperture`       | String    | `"f/2.8"`                                   | Include f/ prefix                |
+| `mount`             | String    | `"Nikon Z Mount"`                           | Official mount name              |
+| `weight`            | Integer   | `805`                                       | Always in grams                 |
+| `hasStabilization`  | Boolean   | `true`                                      | Vibration Reduction (VR) enabled |
+| `active`            | Boolean   | `true`                                      | Soft-delete flag                |
+
+## Exemplo de JSON
+
+```json
+{
+  "id": "a3d9f1b0-5c72-4e3d-8c55-2f1e8d4b6a7f",
+  "model": "Nikon NIKKOR Z 24-70mm f/2.8 S",
+  "brand": "Nikon",
+  "type": "Zoom",
+  "focalLength": "24-70mm",
+  "maxAperture": "f/2.8",
+  "mount": "Nikon Z Mount",
+  "weight": 805,
+  "hasStabilization": true,
+  "active": true
+}
+```
 
 ## 💻 Tecnologias Recomendadas
 

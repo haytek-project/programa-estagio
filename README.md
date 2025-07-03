@@ -102,6 +102,7 @@ Seu projeto será avaliado considerando:
 2. Documente todo o processo no README.md
 3. Inclua um arquivo `.gitignore` apropriado
 4. Envie o link do repositório para nosso time de recrutamento
+5. Prazo 1 semana
 
 ## 🔧 Configuração do Ambiente (Exemplo)
 
